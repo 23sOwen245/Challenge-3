@@ -1,0 +1,245 @@
+/* SPACING SYSTEM (px)
+       2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+       FONT SIZE SYSTEM (px)
+       10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contanier {
+  font-family: sans-serif;
+  line-height: 1.6;
+  font-size: 100%;
+}
+@font-face {
+  font-family: Roboto-2;
+  src: url(Fonts/Roboto-Regular.ttf);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+  margin: 0 34px;
+}
+
+.header-img {
+  width: 201px;
+  /* Defult width on OG webpage is 201px */
+  height: 54.7017px;
+  margin: 4px 0;
+  /* OG px sixe next to the 4 was 30px */
+}
+
+.Hero-Section {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.692), rgb(0, 0, 0, 0.692)),
+    url(Challeng\ 3\ photos/gu2g-hero-home-2.jpg);
+
+  width: 100%;
+  height: 535px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  padding: 70px 34px;
+  /* Defult padding 34px and NO 70px top and bottom */
+
+  display: flex;
+  justify-content: space-around;
+
+  /* transform: translate3d(0px, -7.94px, 0px);
+        wound want some more infr of how and why this element on top is importan */
+}
+
+.Hero-h1 {
+  font-size: 23px;
+  margin-bottom: 24px;
+  margin-top: -86px;
+  text-align: center;
+  line-height: 215%;
+}
+
+.Hero-h1 hr {
+  border: 1px solid rgba(85, 85, 85, 0.103);
+}
+.Hero-p1 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20.8px;
+  margin-left: -139px;
+  margin-right: -139px;
+}
+.Hero-p2 {
+  font-family: "Roboto", sans-serif;
+  margin-left: -139px;
+  margin-right: -139px;
+}
+
+.Hero-Content {
+  /* background-color: brown;  */
+  width: 100vh;
+  padding: 65px 20px;
+  margin: 34px 0;
+  color: rgb(255, 255, 255);
+}
+
+.Roller-Derby-Section {
+  /* background-color: #ee6b80; */
+
+  padding: 64px 375px;
+
+  /* OG px sizing 48px 380px */
+
+  display: flex;
+
+  gap: 42px;
+}
+
+.About-1 {
+  width: 250px;
+  height: 420px;
+}
+
+.About-2 {
+  width: 240px;
+  /* OG size 240, my change 260 */
+  height: 380px;
+
+  margin: 16px 20px;
+}
+
+.Roller-Derby-img {
+  display: flex;
+  gap: 2px;
+}
+
+.Roller-Derby-Content {
+  /* background-color: deepskyblue; */
+  margin: 0 -16px;
+
+  /* padding: 96px 120px; */
+
+  padding-top: 57px;
+  padding-bottom: 57px;
+  margin-right: 120px;
+  margin-left: 16px;
+}
+
+.RDC-h2 {
+  margin-bottom: 24px;
+  /* margin-left: 15px;
+  margin-right: 15px;*/
+
+  display: flex;
+  justify-content: center;
+
+  gap: 80px;
+
+  font-size: 17px;
+}
+
+.RDC-h2 hr {
+  border: 1px solid rgba(85, 85, 85, 0.103);
+
+  transform: rotate(90deg);
+  height: 40px;
+  margin: 1px -40px;
+  padding: 0;
+}
+
+.RDC-p {
+  text-align: center;
+  padding: 0 12px;
+}
+
+.footer-1 {
+  background-color: rgb(34, 34, 34);
+}
+
+.footer-img img {
+  /* width: 290px;
+        height: 106px; */
+
+  max-width: 100%;
+  height: 120.609px;
+}
+
+.images-1 {
+  display: flex;
+  justify-content: center;
+
+  padding-bottom: 30px;
+  gap: 24px;
+}
+
+.H2-f1 {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 50px;
+
+  padding: 5px 0;
+  border: 2px solid rgb(0, 0, 0, 0.1);
+
+  /*  put this color in after using the red color place holderrgb(0, 0, 0, 0.1) */
+}
+.non-border {
+  margin: 0 560px;
+
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-bottom: 15px;
+}
+
+.this-should-work {
+  padding-top: 32px;
+  margin-bottom: -50px;
+}
+
+.Footer-1-hr {
+  border: 1px solid rgba(85, 85, 85, 0.103);
+
+  transform: rotate(90deg);
+  height: 200px;
+  margin: -143px 545px;
+  margin-right: 265px;
+
+  /* red   rgba(85, 85, 85, 0.103)*/
+}
+
+.hr-flex-box {
+  display: flex;
+}
+
+.image-last-child {
+  padding-bottom: 50px;
+}
+
+.footer-2 {
+  background-color: #000;
+  color: rgb(255, 255, 255, 0.5);
+
+  display: flex;
+  justify-content: center;
+
+  padding: 15px 10px;
+
+  font-size: 14.4px;
+}
+
+/* SPACING SYSTEM (px)
+             2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      
+             FONT SIZE SYSTEM (px)
+             10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
